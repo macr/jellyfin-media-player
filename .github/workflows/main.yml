@@ -3,9 +3,7 @@ name: build
 on:
   push:
     branches:
-      - release
-      - prerelease
-      - test
+      - ga-test
 jobs:
   build-mac:
     runs-on: macOS-latest
